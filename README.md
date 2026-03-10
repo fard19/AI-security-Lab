@@ -26,17 +26,14 @@ The system simulates attacker and defender interactions, measures system pressur
 
 ## System Architecture
 
-Frontend
-React + Vite dashboard
+## System Architecture
 
-Backend
-FastAPI API server
+![AI Security Lab Architecture](docs/architecture.png)
 
-AI Engine
-Adversarial testing framework
-
-Visualization
-Charts for attack pressure, defense metrics, and risk evaluation
+The system consists of a React dashboard communicating with a FastAPI backend.
+The backend orchestrates adversarial testing through a modular attack engine,
+which evaluates attack strategies, defense responses, and system pressure
+metrics before generating analytics and reports.
 
 ---
 
