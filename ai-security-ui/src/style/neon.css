@@ -1,0 +1,28 @@
+
+.neon-card {
+  background: linear-gradient(
+    145deg,
+    rgba(20, 20, 30, 0.9),
+    rgba(10, 10, 20, 0.9)
+  );
+
+  border: 1px solid rgba(0,255,255,0.25);
+
+  border-radius: 14px;
+
+  padding: 20px;
+
+  box-shadow:
+    0 0 8px rgba(0,255,255,0.2),
+    0 0 20px rgba(0,255,255,0.15),
+    inset 0 0 15px rgba(0,255,255,0.1);
+
+  transition: all 0.25s ease;
+}
+
+.neon-card:hover {
+  box-shadow:
+    0 0 12px rgba(0,255,255,0.5),
+    0 0 30px rgba(0,255,255,0.35),
+    inset 0 0 20px rgba(0,255,255,0.2);
+}
